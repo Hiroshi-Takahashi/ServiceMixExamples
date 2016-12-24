@@ -23,8 +23,8 @@
 
 <camelContext xmlns="http://camel.apache.org/schema/spring">
     <route id="Jetty_Sample">
-        <from uri="jetty:http://localhost:8080/yahoo"/>
-        <to uri="http4://yahoo.co.jp"/>
+        <from uri="jetty:http://localhost/yahoo"/>
+        <to uri="http4://yahoo.co.jp?bridgeEndpoint=true"/>
     </route>
 </camelContext>
 </beans>
