@@ -27,3 +27,4 @@
         <to uri="http4://yahoo.co.jp"/>
     </route>
 </camelContext>
+</beans>
